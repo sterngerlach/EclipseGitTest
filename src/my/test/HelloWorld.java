@@ -25,11 +25,6 @@ public class HelloWorld {
     private JSplitPane mSplitPane;
     
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
-        
-        List<String> strList = Arrays.asList("C++", "Python", "Java", "CSharp");
-        SomeUtility.PrintListElements(strList);
-        
         HelloWorld helloWorldApp = new HelloWorld();
     }
     
