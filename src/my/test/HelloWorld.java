@@ -3,6 +3,7 @@
 
 package my.test;
 
+import java.awt.BorderLayout;
 import java.awt.event.KeyEvent;
 import java.awt.event.WindowEvent;
 import java.util.ArrayList;
@@ -13,6 +14,7 @@ import javax.swing.JFrame;
 import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
+import javax.swing.JSplitPane;
 
 public class HelloWorld {
 	
@@ -20,6 +22,7 @@ public class HelloWorld {
 	private JMenuBar mMenuBar;
 	private JMenu mMenuFile;
 	private JMenuItem mMenuItemExit;
+	private JSplitPane mSplitPane;
 	
 	public static void main(String[] args) {
 		System.out.println("Hello, World!");
@@ -51,6 +54,9 @@ public class HelloWorld {
 				new WindowEvent(this.mMainFrame, WindowEvent.WINDOW_CLOSING));
 		});
 		this.mMenuFile.add(this.mMenuItemExit);
+		
+		this.mSplitPane = new JSplitPane(JSplitPane.VERTICAL_SPLIT);
+		this.mMainFrame.getContentPane().add(this.mSplitPane, BorderLayout.CENTER);
 		
 		this.mMainFrame.pack();
 	}
