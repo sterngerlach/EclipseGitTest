@@ -40,10 +40,10 @@ public class HelloWorld {
         
         this.mMenuItemExit = new JMenuItem("Exit");
         this.mMenuItemExit.setMnemonic(KeyEvent.VK_X);
-        this.mMenuItemExit.addActionListener(e -> {
+        /*this.mMenuItemExit.addActionListener(e -> {
             this.mMainFrame.dispatchEvent(
                 new WindowEvent(this.mMainFrame, WindowEvent.WINDOW_CLOSING));
-        });
+        });*/
         this.mMenuFile.add(this.mMenuItemExit);
         
         this.mSplitPane = new JSplitPane(JSplitPane.VERTICAL_SPLIT);
