@@ -19,6 +19,13 @@ public class SomeUtility {
                 .map(i -> i.toString())
                 .collect(Collectors.joining(", ")));
     }
+    
+    public static void fizzbuzz(int n) {
+        if (n % 3 == 0) { System.out.println("fizz"); }
+        else if(n % 5 == 0) { System.out.println("buzz"); }
+        else { System.out.println(n);}
+    }
+    
     /*
     public static List<List<Integer>> SplitList(List<Integer> sourceList, int partitionSize) {
         List<List<Integer>> partitionList = new ArrayList<>();
