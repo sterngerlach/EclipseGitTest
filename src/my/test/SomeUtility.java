@@ -19,7 +19,7 @@ public class SomeUtility {
                 .map(i -> i.toString())
                 .collect(Collectors.joining(", ")));
     }
-    
+    /*
     public static List<List<Integer>> SplitList(List<Integer> sourceList, int partitionSize) {
         List<List<Integer>> partitionList = new ArrayList<>();
         
@@ -29,5 +29,5 @@ public class SomeUtility {
                     sourceList.size() : i + partitionSize));
         
         return partitionList;
-    }
+    }*/
 }
