@@ -21,8 +21,8 @@ public class SomeUtility {
     }
     
     public static void fizzbuzz(int n) {
-        if (n % 3 == 0) { System.out.println("fezz"); }
-        else if(n % 5 == 0) { System.out.println("bazz"); }
+        if (n % 3 == 0) { System.out.println("ffffffiiiiizzzzzzz"); }
+        else if(n % 5 == 0) { System.out.println("bbbbbbuuuuuuzzzzzz"); }
         else { System.out.println(n);}
     }
     
