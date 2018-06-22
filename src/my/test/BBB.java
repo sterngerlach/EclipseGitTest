@@ -1,6 +1,6 @@
 package my.test;
 
-public class AAA {
+public class BBB {
     public static int fibo(int n) {
         if (n == 0) return 1;
         else if (n == 1) return 1;
