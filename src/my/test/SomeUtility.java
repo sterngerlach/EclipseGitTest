@@ -52,4 +52,9 @@ public class SomeUtility {
     {
         System.out.println("Hogehoge");
     }
+    
+    public static void fugaFunc()
+    {
+        System.out.println("Fugafuga");
+    }
 }
