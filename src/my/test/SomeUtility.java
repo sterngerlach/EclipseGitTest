@@ -47,4 +47,9 @@ public class SomeUtility {
     {
         System.out.println("Lorem ipsum");
     }
+    
+    public static void hogeFunc()
+    {
+        System.out.println("Hogehoge");
+    }
 }
