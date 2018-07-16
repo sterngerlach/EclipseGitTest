@@ -42,4 +42,9 @@ public class SomeUtility {
     {
         System.out.println("The quick brown fox jumps over the lazy dog.");
     }
+    
+    public static void someMethod2()
+    {
+        System.out.println("Lorem ipsum");
+    }
 }
