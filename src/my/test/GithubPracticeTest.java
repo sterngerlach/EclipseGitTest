@@ -10,4 +10,7 @@ public class GithubPracticeTest {
     public void helloWorld() {
         System.out.println("Hello, World");
     }
+    public void ultimateAnswer() {
+        System.out.println("42");
+    }
 }
