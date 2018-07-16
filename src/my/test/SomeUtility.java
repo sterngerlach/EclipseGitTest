@@ -37,4 +37,9 @@ public class SomeUtility {
         
         return partitionList;
     }*/
+    
+    public static void someMethod()
+    {
+        System.out.println("The quick brown fox jumps over the lazy dog.");
+    }
 }
